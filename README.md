@@ -12,8 +12,8 @@ Maintained by [Aditya Advani](https://x.com/aditya_advani)
 
 ## The Workflow
 
-1. **Create `.agent/template/PLAN.md`** — a structured markdown template for feature planning
-2. **Configure `AGENTS.md`** — instructs your AI agent to create a new ExecPlan for each task by copying the template into a new feature folder (e.g., `.agent/orchestrator/PLAN.md`)
+1. **Create `.agents/template/PLAN.md`** — a structured markdown template for feature planning
+2. **Configure `AGENTS.md`** — instructs your AI agent to create a new ExecPlan for each task by copying the template into a new feature folder (e.g., `.agents/orchestrator/PLAN.md`)
 3. **Say "do the plan"** — the agent executes methodically, usually one-shotting or completing in 2-3 iterations
 
 ### Why It Works
@@ -27,11 +27,11 @@ Maintained by [Aditya Advani](https://x.com/aditya_advani)
 
 ## Quick Start
 
-1. Copy this repo's `.agent/template/PLAN.md` and `AGENTS.md` into your project
+1. Copy this repo's `.agents/template/PLAN.md` and `AGENTS.md` into your project
 2. **(Optional)** Add to `.gitignore` to keep plans local:
    ```
-   .agent/*
-   !.agent/template/
+   .agents/*
+   !.agents/template/
    ```
 3. Tell your agent: "Create an ExecPlan for [feature] following the template"
 4. Execute: "Do the plan"
@@ -44,7 +44,7 @@ Maintained by [Aditya Advani](https://x.com/aditya_advani)
 - **TDD first:** `AGENTS.md` includes test-driven development guidance
 - **Concurrency:** Running multiple plans in parallel is possible but requires orchestration (still figuring this out myself)
 - **Cleanup:** Delete feature folders post-merge if working in a shared codebase
-
+- **Slight variation:** In the video, Aaron uses `.agent` but I use `.agents` to match AGENTS.md naming. I keep forgetting otherwise.
 ---
 
 ## Contributing
