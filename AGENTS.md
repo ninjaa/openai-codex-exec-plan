@@ -4,5 +4,4 @@ Almost always write tests first, and have me approve them. Unit tests like that,
 
 # ExccPlans
 
-When writing complex features or significant refactors, use an ExecPlan (as described in .agent/_template/PLANS.md) from design to implementation. Write new plans to the .agent dir, Place any temporary research, clones, etc., in a .gitignored subdirectory of .agent. But for permanent features, open a new subdir under .agent, so for example for the orchestrator, we would use .agent/orchestrator/PLAN.md ... start by doing `cp -r .agent/_template .agent/orchestrator`
-
+When writing complex features or significant refactors, use an ExecPlan (as described in .agents/_template/PLANS.md) from design to implementation. Write new plans to the .agents dir, Place any temporary research, clones, etc., in a .gitignored subdirectory of .agents. But for permanent features, open a new subdir under .agents, so for example for the orchestrator, we would use .agents/orchestrator/PLAN.md ... start by doing `cp -r .agents/_template .agents/orchestrator`
