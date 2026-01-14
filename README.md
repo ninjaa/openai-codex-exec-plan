@@ -6,6 +6,8 @@ AGENTS.md and ExecPlan markdown templates for programming efficiently with AI co
 
 **Inspired by [Aaron Friel](https://x.com/AaronFriel)'s OpenAI 2025 DevDay presentation:** ["Shipping with Codex"](https://youtu.be/Gr41tYOzE20?t=1050)
 
+**Reference:** [OpenAI Cookbook - Codex Exec Plans](https://cookbook.openai.com/articles/codex_exec_plans)
+
 Maintained by [Aditya Advani](https://x.com/aditya_advani)
 
 ---
